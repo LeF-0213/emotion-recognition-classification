@@ -1,0 +1,14 @@
+torch>=2.0
+torchvision>=0.15
+transformers>=4.30
+timm>=0.9
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+Pillow>=9.0
+matplotlib>=3.7
+seaborn>=0.12
+tqdm>=4.65
+sentencepiece>=0.1.99
+# 선택: 언어 자동 판별
+# langdetect>=1.0.9

@@ -1,0 +1,4 @@
+model,fusion,test_accuracy,f1_macro,f1_weighted
+ConcatFusion,Concat,0.7552,0.7555,0.7553
+CrossModalFusion,2-token self-attn,0.8021,0.8008,0.8000
+Ensemble,soft vote,0.7969,0.7962,0.7955
