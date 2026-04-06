@@ -74,8 +74,6 @@ python main.py --mixup
 
 ### 2.2 `ConcatFusionModel` vs `CrossModalFusionModel`
 
-![모델 요약 표 및 Ensemble](outputs/figures/results.png)
-
 | 항목 | ConcatFusionModel | CrossModalFusionModel |
 |------|-------------------|------------------------|
 | 융합 | 텍스트·이미지 벡터를 **채널 방향 concat** → Linear(…→512) → 분류 헤드 | 텍스트·이미지를 동일 차원(512)으로 **투영** 한 뒤 **길이 2 시퀀스** 로 쌓고, **Multi-Head Self-Attention** 후 잔차·LayerNorm, **평균 풀링** → 분류 헤드 |
